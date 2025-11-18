@@ -1,0 +1,327 @@
+
+<div class="min-h-screen w-full flex flex-col font-sans text-text-primary bg-white pb-20">
+  
+  <!-- YENİ EKLENEN KARŞILAMA ALANI (HERO) -->
+  <header class="bg-card-bg border-b border-card-border" id="top">
+    <!-- Konteyner -->
+    <div class="w-full max-w-[392px] lg:max-w-[928px] xl:max-w-[1140px] mx-auto py-16 px-4 text-center">
+        <!-- İkon (Mevcut Logo Korundu) -->
+        <div class="w-20 h-20 bg-highlight-bg text-primary rounded-3xl flex items-center justify-center mx-auto overflow-hidden">
+          <svg class="h-12 w-auto" width="274" height="341" viewBox="0 0 274 341" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M53.4999 2.41504C36.4999 17.815 19.3998 33.015 2.2998 48.315V337.915H271.4V2.41504H53.4999Z" fill="white"/>
+            <path d="M271.4 340.215H2.29993C0.999927 340.215 0 339.215 0 337.915V48.3152C0 47.6152 0.299927 47.0152 0.799927 46.6152L3.59998 44.1152C19.5 29.9152 35.9 15.2152 52 0.715233C52.4 0.315233 53 0.115234 53.5 0.115234H271.4C272.7 0.115234 273.7 1.11523 273.7 2.41523V337.915C273.7 339.215 272.7 340.215 271.4 340.215ZM4.59998 335.615H269.1V4.71523H54.2999C38.4999 19.1152 22.2 33.5152 6.59998 47.5152L4.59998 49.3152V335.615Z" fill="black"/>
+            <path d="M2.30005 48.315C26.6 48.715 45.7001 50.115 58.7001 50.315C57.7001 35.215 56.6001 17.215 53.5001 2.41504C52.1001 4.91504 16.9 33.215 2.30005 48.315Z" fill="white"/>
+            <path d="M58.7001 52.6151C53.2001 52.6151 46.6002 52.2151 39.0002 51.9151C28.4002 51.4151 16.3002 50.9151 2.40018 50.6151C1.50018 50.6151 0.700082 50.0151 0.300082 49.2151C8.23289e-05 48.4151 0.100082 47.4151 0.800082 46.7151C9.40008 37.7151 25.3002 24.1151 37.0002 14.1151C43.8002 8.3151 50.9001 2.2151 51.7001 1.1151C52.2001 0.3151 53.1002 -0.0848984 54.0002 0.0151016C54.9002 0.115102 55.7002 0.915097 55.9002 1.8151C58.9002 16.1151 60.0002 33.1151 61.0002 48.0151V50.1151C61.2002 50.7151 61.0002 51.4151 60.5002 51.8151C60.1002 52.3151 59.5001 52.5151 58.8001 52.5151L58.7001 52.6151ZM7.70011 46.2151C19.5001 46.5151 29.8001 46.9151 39.1001 47.4151C45.6001 47.7151 51.3001 48.0151 56.2001 48.1151C55.3001 34.9151 54.3002 20.1151 52.0002 7.1151C49.7002 9.2151 45.9001 12.5151 39.8001 17.7151C29.8001 26.3151 16.5001 37.6151 7.70011 46.2151Z" fill="black"/>
+            <g opacity="0.1">
+            <path d="M59.3001 52.9151C58.1001 51.3151 56.4001 51.7151 54.8001 51.8151C47.4001 51.3151 40.0002 49.8151 32.5002 49.5151C25.8002 49.5151 19.1002 49.7151 12.4002 49.3151C10.5002 49.2151 8.70008 49.0151 6.80008 48.7151C5.90008 48.4151 5.00011 48.5151 4.20011 49.1151C1.80011 50.8151 2.30015 55.8151 5.00015 56.6151C14.7002 57.6151 24.5001 57.3151 34.3001 58.1151C42.4001 58.9151 51.2002 59.0151 57.0002 60.0151C59.8002 60.1151 61.3001 55.3151 59.3001 52.9151Z" fill="black"/>
+            </g>
+            <path d="M240.5 64.3153H133.8C133.4 64.3153 133 64.0153 133 63.5153C133 63.0153 133.3 62.7153 133.8 62.7153H240.5C240.9 62.7153 241.3 63.0153 241.3 63.5153C241.3 64.0153 241 64.3153 240.5 64.3153Z" fill="black"/>
+            <path d="M240.5 109.915H133.8C133.4 109.915 133 109.615 133 109.115C133 108.615 133.3 108.315 133.8 108.315H240.5C240.9 108.315 241.3 108.615 241.3 109.115C241.3 109.615 241 109.915 240.5 109.915Z" fill="black"/>
+            <path d="M240.5 87.1151H89.9001C89.5001 87.1151 89.1001 86.8151 89.1001 86.3151C89.1001 85.8151 89.4001 85.5151 89.9001 85.5151H240.5C240.9 85.5151 241.3 85.8151 241.3 86.3151C241.3 86.8151 241 87.1151 240.5 87.1151Z" fill="black"/>
+            <path d="M114.4 165.515L85.5 165.115L55.2 259.415H78.4C78.4 259.315 86.4 236.715 86.4 236.715L112.8 236.915L118.9 258.915L143.3 259.415L114.2 165.615L114.4 165.515ZM90.7 214.915L99.7 188.115L109.8 215.215L90.7 214.915Z" fill="#01866C"/>
+            <path d="M55.2 261.815C54.5 261.815 53.8 261.515 53.4 260.915C53 260.315 52.8 259.515 53.1 258.915L83.4 164.615C83.7 163.615 84.6 163.015 85.6 163.015L114.5 163.415C115.5 163.415 116.4 164.115 116.6 165.015L145.7 258.815C145.9 259.515 145.7 260.315 145.3 260.815C144.9 261.415 144.2 261.715 143.4 261.715L119 261.215C118 261.215 117.1 260.515 116.8 259.515L111.1 239.215H88C88 239.115 80.5 260.215 80.5 260.215C80.2 261.115 79.3 261.715 78.4 261.715H55.2C55.2 261.815 55.2 261.815 55.2 261.815ZM87.1 167.415L58.2999 257.115H76.7999L84.2999 235.915C84.5999 235.015 85.5 234.415 86.4 234.415L112.8 234.615C113.8 234.615 114.7 235.315 115 236.315L120.7 256.615L140.3 257.015L112.7 167.815L87.2 167.515L87.1 167.415ZM109.8 217.515L90.7 217.215C90 217.215 89.3 216.815 88.9 216.215C88.5 215.615 88.4 214.815 88.6 214.215L97.6 187.415C97.9 186.515 98.8 185.915 99.7 185.815C100.7 185.815 101.5 186.415 101.9 187.315L112 214.415C112.3 215.115 112.2 215.915 111.7 216.515C111.3 217.115 110.6 217.515 109.8 217.515ZM93.9 212.715L106.5 212.915L99.7999 195.015L93.9 212.715Z" fill="black"/>
+            <path d="M163.4 215.615C162.2 215.615 161.2 214.715 161.1 213.415C161.1 212.115 162 211.115 163.3 211.015C178.2 210.215 193.4 210.115 208.3 210.815C209.6 210.815 210.5 211.915 210.5 213.215C210.5 214.515 209.4 215.415 208.1 215.415C193.3 214.815 178.3 214.915 163.5 215.615C163.5 215.615 163.5 215.615 163.4 215.615Z" fill="black"/>
+            <path d="M185 241.715C183.7 241.715 182.7 240.715 182.7 239.415V190.415C182.8 190.415 185.1 190.415 185.1 190.415H187.4L187.3 239.415C187.3 240.715 186.3 241.715 185 241.715Z" fill="black"/>
+            <path d="M15.4 84.515C15 84.515 14.6 84.215 14.6 83.815L14.2 62.715C14.2 62.315 14.5 61.915 14.9 61.915C15.3 61.915 15.7 62.215 15.7 62.615L16.1 83.715C16.1 84.115 15.8 84.515 15.4 84.515Z" fill="black"/>
+            <path d="M25.5999 72.7149C25.1999 72.7149 24.8998 72.4149 24.7998 72.0149L24.3999 62.6149C24.3999 62.2149 24.6999 61.8149 25.0999 61.8149C25.4999 61.8149 25.8999 62.1149 25.8999 62.5149L26.2998 71.9149C26.2998 72.3149 25.9999 72.7149 25.5999 72.7149Z" fill="black"/>
+            <path d="M256.8 325.515C256.4 325.515 256.1 325.215 256 324.815C255.5 319.015 255.5 313.215 256 307.415C256 307.015 256.4 306.715 256.8 306.715C257.2 306.715 257.5 307.115 257.5 307.515C256.9 313.215 256.9 318.915 257.5 324.615C257.5 325.015 257.2 325.415 256.8 325.415V325.515Z" fill="black"/>
+            </svg>
+        </div>
+        <!-- Başlık -->
+        <h1 class="text-4xl font-bold text-text-primary mt-6">
+            Soru Asistanı
+        </h1>
+        <!-- Açıklama -->
+        <p class="text-base text-text-secondary mt-4 max-w-2xl mx-auto">
+           Öğrencilerinizin zorlandığı konularda, yapay zeka destekli kişiselleştirilmiş sorular hazırlayın.
+        </p>
+    </div>
+  </header>
+
+  <main class="flex-1 w-full max-w-[1200px] mx-auto px-6 pt-8">
+    
+    <!-- Input Form Card (Content Card Style) -->
+    <div class="bg-inekle-cardBg border-2 border-inekle-cardBorder rounded-3xl p-8 md:p-10 mb-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Grade Selection -->
+        <div class="flex flex-col gap-2">
+          <label class="text-sm font-semibold text-inekle-textMain ml-1">Sınıf Seviyesi</label>
+          <div class="relative">
+            <select 
+              [ngModel]="grade()" 
+              (ngModelChange)="onGradeChange($event)"
+              class="w-full h-14 px-4 rounded-xl border border-inekle-cardBorder bg-white text-inekle-textMain font-medium focus:outline-none focus:ring-2 focus:ring-inekle-primary focus:border-transparent appearance-none cursor-pointer">
+              @for (g of grades; track g) {
+                <option [value]="g">{{ g }}</option>
+              }
+            </select>
+            <div class="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-inekle-textSec">
+              <!-- HugeIcons: arrow-down-01 (Verified) -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9L12 15L18 9" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Subject Selection -->
+        <div class="flex flex-col gap-2">
+          <label class="text-sm font-semibold text-inekle-textMain ml-1">Ders</label>
+          <div class="relative">
+            <select 
+              [ngModel]="subject()" 
+              (ngModelChange)="onSubjectChange($event)"
+              class="w-full h-14 px-4 rounded-xl border border-inekle-cardBorder bg-white text-inekle-textMain font-medium focus:outline-none focus:ring-2 focus:ring-inekle-primary focus:border-transparent appearance-none cursor-pointer">
+              @for (s of subjects; track s) {
+                <option [value]="s">{{ s }}</option>
+              }
+            </select>
+            <div class="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-inekle-textSec">
+              <!-- HugeIcons: arrow-down-01 (Verified) -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9L12 15L18 9" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Topic Input (With AutoComplete) -->
+        <div class="flex flex-col gap-2 relative z-20">
+          <label class="text-sm font-semibold text-inekle-textMain ml-1">Konu</label>
+          <div class="relative">
+            <input 
+              type="text" 
+              placeholder="Örn: Çarpanlar ve Katlar" 
+              [ngModel]="topic()"
+              (ngModelChange)="topic.set($event)"
+              (input)="onTopicInput()"
+              (focus)="onTopicInput()"
+              (blur)="onTopicBlur()"
+              class="w-full h-14 px-4 rounded-xl border border-inekle-cardBorder bg-white text-inekle-textMain font-medium focus:outline-none focus:ring-2 focus:ring-inekle-primary focus:border-transparent placeholder:text-gray-400"
+            />
+            
+            <!-- Autocomplete Dropdown -->
+            @if (showSuggestions() && filteredTopics().length > 0) {
+              <ul class="absolute left-0 right-0 top-full mt-2 bg-white border border-inekle-cardBorder rounded-xl shadow-lg max-h-60 overflow-y-auto z-50">
+                @for (item of filteredTopics(); track item) {
+                  <li 
+                    (click)="selectTopic(item)"
+                    class="px-4 py-3 hover:bg-inekle-cardBg cursor-pointer text-inekle-textMain font-medium transition-colors border-b border-inekle-cardBorder last:border-none">
+                    {{ item }}
+                  </li>
+                }
+              </ul>
+            }
+          </div>
+        </div>
+
+        <!-- Difficulty Selection -->
+        <div class="flex flex-col gap-2">
+          <label class="text-sm font-semibold text-inekle-textMain ml-1">Zorluk Seviyesi</label>
+          <div class="relative">
+            <select 
+              [ngModel]="difficulty()" 
+              (ngModelChange)="difficulty.set($event)"
+              class="w-full h-14 px-4 rounded-xl border border-inekle-cardBorder bg-white text-inekle-textMain font-medium focus:outline-none focus:ring-2 focus:ring-inekle-primary focus:border-transparent appearance-none cursor-pointer">
+              @for (d of difficulties; track d) {
+                <option [value]="d">{{ d }}</option>
+              }
+            </select>
+            <div class="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-inekle-textSec">
+              <!-- HugeIcons: arrow-down-01 (Verified) -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9L12 15L18 9" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question Type Selection -->
+        <div class="flex flex-col gap-2">
+          <label class="text-sm font-semibold text-inekle-textMain ml-1">Soru Tipi</label>
+          <div class="relative">
+            <select 
+              [ngModel]="qType()" 
+              (ngModelChange)="qType.set($event)"
+              class="w-full h-14 px-4 rounded-xl border border-inekle-cardBorder bg-white text-inekle-textMain font-medium focus:outline-none focus:ring-2 focus:ring-inekle-primary focus:border-transparent appearance-none cursor-pointer">
+              @for (t of types; track t) {
+                <option [value]="t">{{ t }}</option>
+              }
+            </select>
+            <div class="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-inekle-textSec">
+              <!-- HugeIcons: arrow-down-01 (Verified) -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9L12 15L18 9" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Generate Button Area -->
+        <div class="flex items-end">
+          <button 
+            (click)="generate()"
+            [disabled]="isLoading()"
+            class="w-full h-14 bg-inekle-primary hover:bg-opacity-90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white font-medium text-lg rounded-xl transition-colors flex items-center justify-center gap-3">
+            @if (isLoading()) {
+              <div class="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+              <span>Hazırlanıyor...</span>
+            } @else {
+              <!-- HugeIcons: sparkles (Verified) -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L12.6472 3.35621C13.2858 4.69421 14.3518 5.72319 15.701 6.3138L17 6.88257L15.701 7.45134C14.3518 8.04195 13.2858 9.07093 12.6472 10.4089L12 11.7651L11.3528 10.4089C10.7142 9.07093 9.6482 8.04195 8.29899 7.45134L7 6.88257L8.29899 6.3138C9.6482 5.72319 10.7142 4.69421 11.3528 3.35621L12 2Z" />
+                <path d="M19 15L19.3236 15.6781C19.6429 16.3471 20.1759 16.8616 20.8505 17.1569L21.5 17.4413L20.8505 17.7257C20.1759 18.021 19.6429 18.5355 19.3236 19.2045L19 19.8825L18.6764 19.2045C18.3571 18.5355 17.8241 18.021 17.1495 17.7257L16.5 17.4413L17.1495 17.1569C17.8241 16.8616 18.3571 16.3471 18.6764 15.6781L19 15Z" />
+              </svg>
+              <span>Soruları Hazırla</span>
+            }
+          </button>
+        </div>
+
+      </div>
+      
+      @if (errorMessage()) {
+        <div class="mt-6 p-4 bg-white border border-inekle-error/30 rounded-xl flex items-start gap-3">
+          <!-- HugeIcons: alert-circle (Verified) -->
+          <svg class="text-inekle-error mt-0.5 shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M12 8V12" />
+            <path d="M12 16H12.01" />
+          </svg>
+          <span class="text-inekle-error font-medium">{{ errorMessage() }}</span>
+        </div>
+      }
+    </div>
+
+    <!-- Results Area -->
+    @if (generatedQuestions(); as questions) {
+      <div class="space-y-8">
+        <div class="flex items-center justify-between">
+          <h3 class="text-xl font-bold text-inekle-textMain">Hazırlanan Sorular</h3>
+          <span class="px-4 py-1.5 bg-inekle-cardBg text-inekle-primary font-semibold rounded-full text-sm border border-inekle-cardBorder">
+            {{ questions.length }} Adet
+          </span>
+        </div>
+
+        <div id="questions-container" class="grid gap-6 p-4 bg-white">
+          @for (q of questions; track $index) {
+            <!-- Question Card -->
+            <div class="bg-inekle-cardBg p-8 rounded-3xl border-2 border-inekle-cardBorder">
+              <!-- Question Header -->
+              <div class="flex items-start justify-between mb-4">
+                <span class="flex items-center justify-center w-8 h-8 rounded-lg bg-inekle-primary text-white font-bold text-sm">
+                  {{ $index + 1 }}
+                </span>
+                <span class="text-xs font-medium text-inekle-textSec uppercase tracking-wider bg-white px-3 py-1 rounded-full border border-inekle-cardBorder">
+                  <!-- Updated to show question specific difficulty if available, otherwise fallback to selection -->
+                  {{ q.difficulty || difficulty() }} • {{ qType() }}
+                </span>
+              </div>
+
+              <!-- Question Body -->
+              <p class="text-lg text-inekle-textMain font-medium leading-relaxed mb-8">
+                {{ q.questionText }}
+              </p>
+
+              <!-- Options (if multiple choice) -->
+              @if (q.options && q.options.length > 0) {
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                  @for (opt of q.options; track $index) {
+                    <div class="flex items-center gap-4 p-4 rounded-xl border border-inekle-cardBorder bg-white">
+                      <div class="w-6 h-6 rounded-full border-2 border-inekle-cardBorder flex items-center justify-center shrink-0">
+                        <div class="w-2.5 h-2.5 rounded-full bg-transparent"></div>
+                      </div>
+                      <span class="text-inekle-textMain font-medium">{{ opt }}</span>
+                    </div>
+                  }
+                </div>
+              }
+
+              <!-- Answer & Explanation -->
+              <div class="pt-6 border-t border-inekle-cardBorder/50" data-html2canvas-ignore="true">
+                <details class="group cursor-pointer">
+                  <summary class="flex items-center gap-2 font-semibold text-inekle-primary select-none outline-none">
+                    <!-- HugeIcons: arrow-right-01 (Verified) -->
+                    <svg class="w-6 h-6 transition-transform group-open:rotate-90" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                       <path d="M9 6L15 12L9 18" />
+                    </svg>
+                    Cevabı ve Açıklamayı Göster
+                  </summary>
+                  <div class="mt-4 pl-7 space-y-4 text-sm">
+                    <div class="p-4 bg-white rounded-xl border border-inekle-cardBorder inline-block">
+                      <span class="font-bold text-inekle-primary block mb-1">Doğru Cevap</span>
+                      <span class="text-inekle-textMain text-lg">{{ q.answer }}</span>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <span class="font-bold text-inekle-textSec text-xs uppercase tracking-wider">Açıklama</span>
+                      <span class="text-inekle-textSec leading-relaxed">{{ q.explanation }}</span>
+                    </div>
+                  </div>
+                </details>
+              </div>
+            </div>
+          }
+        </div>
+
+        <!-- Bottom Action -->
+        <div class="flex flex-wrap justify-center gap-4 pt-8 pb-12">
+            <button 
+                (click)="downloadAsJpg()" 
+                [disabled]="isDownloading()"
+                class="px-8 py-4 rounded-xl bg-inekle-primary text-white font-bold hover:bg-opacity-90 transition-colors flex items-center gap-2">
+                @if (isDownloading()) {
+                    <div class="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                    <span>İndiriliyor...</span>
+                } @else {
+                    <!-- HugeIcons: download-01 (Verified) -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 3V17" />
+                        <path d="M8 13L12 17L16 13" />
+                        <path d="M19 21H5" />
+                    </svg>
+                    <span>Soruları İndir (.JPG)</span>
+                }
+            </button>
+
+            <button 
+                (click)="loadMore()" 
+                [disabled]="isLoading()"
+                class="px-8 py-4 rounded-xl bg-highlight-bg text-inekle-primary font-bold hover:bg-[#d0e8e0] transition-colors flex items-center gap-2">
+                @if (isLoading()) {
+                  <div class="w-4 h-4 border-2 border-inekle-primary border-t-transparent rounded-full animate-spin"></div>
+                  <span>Hazırlanıyor...</span>
+                } @else {
+                  <!-- HugeIcons: plus-sign (Verified) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 4V20" />
+                    <path d="M4 12H20" />
+                  </svg>
+                  <span>Daha Fazla Soru Hazırla</span>
+                }
+            </button>
+
+            <button 
+                (click)="reset()" 
+                class="px-8 py-4 rounded-xl border-2 border-inekle-primary text-inekle-primary font-bold bg-white hover:bg-inekle-cardBg transition-colors">
+                Yeni Soru Hazırla
+            </button>
+        </div>
+      </div>
+    }
+
+    <!-- Empty State (Dropzone Style) -->
+    @if (!generatedQuestions() && !isLoading()) {
+      <div class="mt-12 flex flex-col items-center justify-center text-center p-12 border-2 border-dashed border-inekle-cardBorder rounded-2xl bg-white">
+        <div class="w-16 h-16 bg-inekle-cardBg rounded-full flex items-center justify-center text-inekle-primary mb-4">
+           <!-- HugeIcons: file-02 (Verified) -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M13 2H6C4.89543 2 4 2.89543 4 4V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V9L13 2Z" />
+            <path d="M13 2V9H20" />
+          </svg>
+        </div>
+        <p class="text-inekle-textSec font-medium">Henüz soru oluşturulmadı. <br/> Yukarıdaki formdan seçim yapıp "Soruları Hazırla" butonuna basın.</p>
+      </div>
+    }
+
+  </main>
+</div>

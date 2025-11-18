@@ -1,0 +1,5 @@
+{
+  "name": "İnekle Soru Asistanı",
+  "description": "Öğretmenler için öğrencilerin zorlandığı konulara özel, yapay zeka destekli soru hazırlama platformu.",
+  "requestFramePermissions": []
+}

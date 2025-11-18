@@ -25,8 +25,7 @@ export class QuestionGeneratorService {
   private ai: GoogleGenAI;
 
   constructor() {
-    const apiKey = (import.meta as any).env?.GEMINI_API_KEY || '';
-    this.ai = new GoogleGenAI({ apiKey });
+    this.ai = new GoogleGenAI({ apiKey: process.env['API_KEY'] });
   }
 
   async generateQuestions(req: QuestionRequest): Promise<GeneratedQuestion[]> {
